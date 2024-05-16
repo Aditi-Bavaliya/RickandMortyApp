@@ -1,0 +1,27 @@
+.character-card {
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 16px;
+    max-width: 200px;
+    transition: transform 0.3s;
+}
+
+.character-card:hover {
+    transform: translateY(-5px);
+}
+
+.character-card img {
+    width: 100%;
+    height: auto;
+}
+
+.character-card h2 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+}
+
+.character-card p {
+    margin: 0.25rem 0;
+}

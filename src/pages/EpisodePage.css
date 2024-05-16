@@ -1,0 +1,16 @@
+.episode-page {
+    padding: 20px;
+}
+
+.episode-page ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.episode-page li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
